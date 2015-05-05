@@ -1,0 +1,22 @@
+<?php
+
+return [
+    'slack' => [
+        'token' => '',
+        // Every command needs a token
+        'command_tokens' => [
+            '/dones' => [
+                'token' => '',
+                'channel' => '',
+            ],
+        ],
+        'endpoints' => [
+            'api' => 'https://slack.com/api/',
+            // This URL is provided by Slack
+            'webhook' => '',
+        ],
+        'channels' => [
+            // Example: 'channel' => 'B14RG8C0M',
+        ],
+    ],
+];

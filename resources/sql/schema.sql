@@ -1,0 +1,5 @@
+CREATE TABLE user (
+  id          INTEGER PRIMARY KEY AUTOINCREMENT,
+  slack_id INTEGER NOT NULL,
+  name VARCHAR NOT NULL
+);
